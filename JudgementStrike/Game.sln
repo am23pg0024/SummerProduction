@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.202
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Game", "Game\Game.vcxproj", "{0899E42D-8829-4692-B27F-5FB36CB7C2FE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3A214E06-B95E-4D61-A291-1F8DF2EC10FD} = {3A214E06-B95E-4D61-A291-1F8DF2EC10FD}
+		{AFF27A26-C088-444B-BC2A-0BA94A02AFA7} = {AFF27A26-C088-444B-BC2A-0BA94A02AFA7}
+		{CEBDE98B-A6AA-46E6-BC79-FAAF823DB9EC} = {CEBDE98B-A6AA-46E6-BC79-FAAF823DB9EC}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libogg", "libogg\win32\VS2015\libogg.vcxproj", "{AFF27A26-C088-444B-BC2A-0BA94A02AFA7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libvorbis_static", "libvorbis\win32\VS2010\libvorbis\libvorbis_static.vcxproj", "{3A214E06-B95E-4D61-A291-1F8DF2EC10FD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libvorbisfile", "libvorbis\win32\VS2010\libvorbisfile\libvorbisfile_static.vcxproj", "{CEBDE98B-A6AA-46E6-BC79-FAAF823DB9EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0899E42D-8829-4692-B27F-5FB36CB7C2FE}.Debug|x86.ActiveCfg = Debug|Win32
+		{0899E42D-8829-4692-B27F-5FB36CB7C2FE}.Debug|x86.Build.0 = Debug|Win32
+		{0899E42D-8829-4692-B27F-5FB36CB7C2FE}.Release|x86.ActiveCfg = Release|Win32
+		{0899E42D-8829-4692-B27F-5FB36CB7C2FE}.Release|x86.Build.0 = Release|Win32
+		{AFF27A26-C088-444B-BC2A-0BA94A02AFA7}.Debug|x86.ActiveCfg = Debug|Win32
+		{AFF27A26-C088-444B-BC2A-0BA94A02AFA7}.Debug|x86.Build.0 = Debug|Win32
+		{AFF27A26-C088-444B-BC2A-0BA94A02AFA7}.Release|x86.ActiveCfg = Release|Win32
+		{AFF27A26-C088-444B-BC2A-0BA94A02AFA7}.Release|x86.Build.0 = Release|Win32
+		{3A214E06-B95E-4D61-A291-1F8DF2EC10FD}.Debug|x86.ActiveCfg = Debug|Win32
+		{3A214E06-B95E-4D61-A291-1F8DF2EC10FD}.Debug|x86.Build.0 = Debug|Win32
+		{3A214E06-B95E-4D61-A291-1F8DF2EC10FD}.Release|x86.ActiveCfg = Release|Win32
+		{3A214E06-B95E-4D61-A291-1F8DF2EC10FD}.Release|x86.Build.0 = Release|Win32
+		{CEBDE98B-A6AA-46E6-BC79-FAAF823DB9EC}.Debug|x86.ActiveCfg = Debug|Win32
+		{CEBDE98B-A6AA-46E6-BC79-FAAF823DB9EC}.Debug|x86.Build.0 = Debug|Win32
+		{CEBDE98B-A6AA-46E6-BC79-FAAF823DB9EC}.Release|x86.ActiveCfg = Release|Win32
+		{CEBDE98B-A6AA-46E6-BC79-FAAF823DB9EC}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E37417A5-9926-4F02-B9B2-15A415D278F7}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,121 @@
+{
+	"timeLimit": 180.0,
+	"PLAYER": {
+		"speed": 250.0,
+		"speed2": 250.0,
+		"speed3": 0.0,
+		"CHARGE_CHECK_TIME": 0.2,
+		"CHARGING_TIME": 1.0,
+		"MAX_INVINCIBLE_TIME": 1.0,
+		"MAX_COOL_TIME": 0.5,
+		"AVOID_DIST": 100.0
+	},
+	"BULLET": {
+		"speed": 500
+	},
+	"SHIELD_RECOVERY": {
+		"startTime": 3.0,
+		"interval": 3.0,
+		"num": 3
+	},
+	"ENERGY_SYSTEM": {
+		"LEVEL1": {
+			"maxGauge": 20,
+			"swordPower": 10,
+			"swordLength": 64,
+			"swordAngle": 224,
+			"gunPower": 5,
+			"gunScale": 1.0,
+			"cGunPower": 10
+		},
+		"LEVEL2": {
+			"maxGauge": 80,
+			"swordPower": 20,
+			"swordLength": 80,
+			"swordAngle": 224,
+			"gunPower": 5,
+			"gunScale": 1.1,
+			"cGunPower": 15
+		},
+		"LEVEL3": {
+			"maxGauge": 250,
+			"swordPower": 40,
+			"swordLength": 96,
+			"swordAngle": 224,
+			"gunPower": 5,
+			"gunScale": 1.2,
+			"cGunPower": 20
+		},
+		"LEVEL4": {
+			"maxGauge": 1,
+			"swordPower": 60,
+			"swordLength": 112,
+			"swordAngle": 224,
+			"gunPower": 5,
+			"gunScale": 1.5,
+			"cGunPower": 25
+		},
+		"LEVEL5": {
+			"maxGauge": 1,
+			"swordPower": 80,
+			"swordLength": 128,
+			"swordAngle": 224,
+			"gunPower": 40,
+			"gunScale": 1.5,
+			"cGunPower": 25
+		}
+	},
+	"ENEMY": {
+		"maxSpawn": 300,
+		"maxBlinkTime": 0.3,
+		"NORMAL": {
+			"hp": 15,
+			"speed": 100,
+			"power": 2,
+			"hitPower": 2
+		},
+		"HIGH": {
+			"hp": 50,
+			"speed": 80,
+			"power": 4,
+			"hitPower": 4
+		},
+		"EXPLOSION": {
+			"hp": 10,
+			"speed": 200,
+			"power": 8,
+			"hitPower": 2
+		}
+	},
+	"EXPLOSION": {
+		"power": 10,
+		"scale": 1.0
+	},
+	"WAVE": {
+		"spawnTime": 3.0,
+		"WAVE1": {
+			"spawnNum": 10,
+			"border": 50,
+			"highRate": 0.0,
+			"explRate": 0.0
+		},
+		"WAVE2": {
+			"spawnNum": 20,
+			"border": 80,
+			"highRate": 0.1,
+			"explRate": 0.1
+		},
+		"WAVE3": {
+			"spawnNum": 20,
+			"border": 100,
+			"highRate": 0.2,
+			"explRate": 0.0
+		},
+		"WAVE4": {
+			"spawnNum": 70,
+			"border": 0,
+			"highRate": 0.2,
+			"explRate": 0.5
+		}
+	}
+}
